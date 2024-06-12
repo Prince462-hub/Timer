@@ -1,0 +1,55 @@
+body{
+    margin:0px;
+    padding:0px; 
+    display: grid;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(140deg,green,red);
+}
+.timer{
+    display: flex;
+    flex-direction: column;
+    place-self: center;
+}
+h2{
+    margin-block-start: 0px;
+    margin-block-end: .4em;
+}
+.container{
+    display: grid;
+    /* flex-direction: column; */
+}
+.in_container{
+    display: flex;
+    flex-direction: row;
+    height: 6vh;
+    justify-content: center;
+}
+#btn{
+    display: flex;
+    flex-direction: column;
+    place-self: center;
+    margin-top: .2em;
+
+}
+#hr{
+    margin-right: .3em;
+    background: linear-gradient(270deg,green,red);
+}
+#sec{
+    margin-left: .3em;
+    background: linear-gradient(270deg,green,red);
+}
+#min{
+    background: linear-gradient(140deg,green,red);
+}
+button{
+    margin-top: .4em;
+    height: 5vh;
+    width: 10vw;
+    cursor: pointer;
+    background: linear-gradient(140deg,green,red);
+}
+#start{
+    margin-top: 4vh;
+}
